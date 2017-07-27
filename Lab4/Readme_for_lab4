@@ -1,0 +1,21 @@
+In this repository I have 7 files, the description of each of the files is a s follws:
+
+1. QuickSorth.cpp : It is C++ file which implements Quicksort taking the last element as the pivot element in the partition procedure.
+
+2. QuickSortl.cpp : It is C++ file which implements Quicksort taking the first element as the pivot element in the partition procedure.In this actually the first element is swapped
+                    with the last element in the partition procedure,thus our first element becomes the pivot for the partition procedre each time it is called.
+                    
+3. QuickSortm.cpp : It is C++ file which implements Quicksort taking the middle element as the pivot element in the partition procedure.In this actually the middle element is swapped
+                    with the last element in the partition procedure,thus our middle element becomes the pivot for the partition procedre each time it is called.
+                    
+4. input.txt : A text file which on the first line contains "n" : the number of elements to be sorted and the next "n" lines conatins the numbers to be sorted.
+
+5. outputh.txt : The file to which the output of QuickSorth.cpp is stored.
+
+6. outputl.txt : The file to which the output of QuickSortl.cpp is stored.
+
+7. outputm.txt : The file to which the output of QuickSortm.cpp is stored.
+                    
+For comparision between the various versions of QuickSort I have counted the number of swaps done in the for loop of the partition procedure.
+
+The scripts for compiling and running the above programs are named same as the programs. So to run a program run the script with same name as program name. 
